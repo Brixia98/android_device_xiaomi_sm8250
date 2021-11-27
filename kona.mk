@@ -75,6 +75,14 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
     
+# Dolby
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.audio.dolby.ds2.enabled=true \
+    vendor.audio.dolby.ds2.hardbypass=false \
+    persist.vendor.audio_fx.current=dolby \
+    ro.audio.monitorRotation=true \
+    ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1
+
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
