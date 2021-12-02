@@ -1,6 +1,7 @@
 # Bringup properties
 ro.kernel.qemu.gles=0
 qemu.hw.mainkeys=0
+qemu.sf.lcd_density=420 
 
 # Bluetooth
 persist.bluetooth.sbc_hd_higher_bitrate=1
