@@ -26,6 +26,9 @@ camera.disable_zsl_mode=true
 ro.crypto.allow_encrypt_override=true
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+
 # Charging
 persist.vendor.quick.charge=1
 persist.vendor.night.charge=true
