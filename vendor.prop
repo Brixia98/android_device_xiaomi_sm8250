@@ -28,6 +28,7 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=true
 
 # Charging
 persist.vendor.quick.charge=1
